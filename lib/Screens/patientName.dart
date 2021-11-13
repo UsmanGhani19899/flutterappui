@@ -86,6 +86,7 @@ class _PatientNameState extends State<PatientName> {
               Container(
                 width: MediaQuery.of(context).size.width * 0.3,
                 child: TextFormField(
+                  controller: _controller,
                   decoration: InputDecoration(
                       filled: true,
                       fillColor: Colors.orange,
